@@ -1,0 +1,241 @@
+/* синий цвет #2196F3 */
+/* черный цвет - заголовки и навигация #212121 */
+/* белый цвет #FFFFFF */
+/* черный в лого #000000    и белый в лого  #FFFFFF */
+/* фоновый Наша команда #F5F4FA  --- фоновый в чем мы занимаемся - #E5E5E5 */
+/* серый текст - #757575 */
+/* фон кнопок в портфолио - #F5F4FA */
+/* font weight = 400, 500, 700, 900,  */
+
+:root {
+  --accent: #2196f3;
+  --text-color: #757575;
+  --background-team: #f5f4fa;
+  --header-logo: #000000;
+  --titles: #212121;
+  --navigation: #212121;
+  --white-colour: #ffffff;
+  --btn-portfolio: #212121;
+  --portfolio-btn-background: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* --------------------------------HEADER---------------------------  */
+.header {
+  background: var(--white-colour);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-logo {
+  color: var(--header-logo);
+}
+
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent);
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--navigation);
+}
+
+.header-email,
+.header-tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.active {
+  color: var(--accent);
+}
+
+/* --------------------------------STUDIO PAGE  ---------------------------  */
+
+.link {
+  text-decoration: none;
+}
+.accent {
+  color: var(--accent);
+}
+.list {
+  list-style: none;
+}
+
+/* --------------------------------HEROES section---------------------------  */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-colour);
+  /* background-color: #757575; */
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: var(--white-colour);
+  background: var(--accent);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #188ce8;
+}
+
+/* --------------------------------FEATURES section---------------------------  */
+.features-section {
+  background-color: var(--white-colour);
+}
+
+/* для скрытых заголовков */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--titles);
+}
+
+.features-text {
+  line-height: 1.71;
+}
+
+/* --------------------------------PRODUCT&TEAM section---------------------------  */
+
+.product-section {
+  background-color: var(--white-colour);
+}
+
+.team-section {
+  background-color: var(--background-team);
+}
+
+.product-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--titles);
+}
+
+.team-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--titles);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.card {
+  background-color: var(--white-colour);
+}
+
+/* ---------------------------!!!PORTFOLIO PAGE!!! ---------------------------  */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--btn-portfolio);
+  background-color: var(--portfolio-btn-background);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-colour);
+  background-color: var(--accent);
+}
+
+.portfolio-btn {
+  cursor: pointer;
+}
+
+/* --------------MAIN SECTION */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titles);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* --------------------------------FOOTER ---------------------------  */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: var(--white-colour);
+}
+
+.footer-address {
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer .address {
+  color: var(--white-colour);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent);
+}
