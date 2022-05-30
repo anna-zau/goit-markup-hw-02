@@ -21,8 +21,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -82,6 +80,10 @@ body {
 }
 
 /* --------------------------------HEROES section---------------------------  */
+.hero-section {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -108,7 +110,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /* --------------------------------FEATURES section---------------------------  */
@@ -132,6 +134,7 @@ body {
 
 .features-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--titles);
